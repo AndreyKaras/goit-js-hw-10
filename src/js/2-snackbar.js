@@ -3,7 +3,8 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 import '../css/snackbar.css';
 
-import errorIcon from `../img/bi_x-octagon.svg`
+import errorIcon from '../img/bi_x-octagon.svg';
+
 
 const form = document.querySelector('.form');
 form.addEventListener('submit', event => {

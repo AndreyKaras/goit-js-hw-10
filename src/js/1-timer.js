@@ -5,7 +5,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import '../css/timer.css';
 
-import errorIcon from `../img/bi_x-octagon.svg`
+import errorIcon from `../img/bi_x-octagon.svg`;
 
 const startBtn = document.querySelector('[data-start]');
 const input = document.querySelector('#datetime-picker');
