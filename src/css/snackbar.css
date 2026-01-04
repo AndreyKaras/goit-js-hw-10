@@ -1,0 +1,124 @@
+.iziToast.iziToast-color-green {
+  background-color: #59a10d;
+  border-bottom: rgba(166, 239, 184, 0.9);
+  border-color: rgba(166, 239, 184, 0.9);
+}
+/* background:rgba(166,239,184,.9); */
+
+.iziToast-color-green .iziToast-progressbar div {
+  background: hsl(120, 100%, 25%);
+  height: 2px !important;
+  margin: 0 !important;
+  border-radius: 0 0 16px 16px !important;
+  overflow: hidden !important;
+}
+
+.iziToast-color-green .iziToast-progressbar {
+  background: #b5ea7c;
+}
+
+.iziToast.iziToast-color-red {
+  background-color: #ef4040;
+  color: #fff;
+  border-bottom: #ffbebe;
+  border-color: #ffbebe;
+}
+
+.snackbar-button {
+  width: 360px;
+  margin-top: 24px;
+  margin-left: 156px;
+}
+
+.snackbar-label {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+
+  margin-left: 156px;
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
+.snackbar-first-input {
+  margin-top: 8px;
+  width: 360px;
+  box-sizing: border-box;
+  min-height: 40px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.snackbar-fieldset {
+  margin-left: 156px;
+  box-sizing: border-box;
+
+  width: 360px;
+  height: 72px;
+  color: #2e2f42;
+  padding: 0px 0px 0px 22px;
+  text-align: left;
+}
+
+.form {
+  font-family: Montserrat, sans-serif;
+  color: #2e2f42;
+}
+
+.snackbar-fieldset input {
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.snackbar-fieldset label {
+  display: flex;
+  align-items: center;
+}
+
+.snackbar-label {
+  letter-spacing: 4%;
+}
+
+.snackbar-labels {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  width: 264px;
+  height: 32px;
+  box-sizing: border-box;
+  padding-top: 14px;
+}
+
+.snackbar-labels li:last-child {
+  margin-left: 48px;
+}
+
+Chrome,
+Safari,
+Edge,
+Opera input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='number'] {
+  overflow: hidden !important;
+}
+
+.input_box {
+  padding: 6px 6px;
+  display: flex;
+  margin-right: 8px;
+}
+
+.snackbar-fieldset .legend {
+  letter-spacing: 4%;
+  padding-left: 1px;
+  padding-right: 1px;
+}
