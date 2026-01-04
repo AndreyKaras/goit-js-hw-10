@@ -3,6 +3,8 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 import '../css/snackbar.css';
 
+import errorIcon from `../img/bi_x-octagon.svg`
+
 const form = document.querySelector('.form');
 form.addEventListener('submit', event => {
   event.preventDefault();
@@ -31,7 +33,7 @@ form.addEventListener('submit', event => {
         title: 'Error',
         message: 'Illegal operation',
         position: 'topRight',
-        iconUrl: 'img/bi_x-octagon.svg',
+        iconUrl: errorIcon,
         // timeout: 0,
       });
     });
