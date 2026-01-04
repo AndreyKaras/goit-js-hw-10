@@ -31,7 +31,7 @@ form.addEventListener('submit', event => {
         title: 'Error',
         message: 'Illegal operation',
         position: 'topRight',
-        iconUrl: 'img/bi_x-octagon (1).svg',
+        iconUrl: 'img/bi_x-octagon.svg',
         // timeout: 0,
       });
     });
