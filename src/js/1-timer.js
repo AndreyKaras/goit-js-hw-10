@@ -33,8 +33,7 @@ const options = {
       startBtn.disabled = true;
 
       iziToast.error({
-        title: 'Error',
-        message: 'Illegal operation',
+        message: "Please choose a date in the future",
         position: 'topRight',
         iconUrl: errorIcon,
         // timeout:0,
@@ -71,7 +70,7 @@ startBtn.addEventListener('click', () => {
 });
 
 function updateTimer({ days, hours, minutes, seconds }) {
-  daysEl.textContent = days;
+  daysEl.textContent = addLeadingZero(days);
   hoursEl.textContent = addLeadingZero(hours);
   minutesEl.textContent = addLeadingZero(minutes);
   secondsEl.textContent = addLeadingZero(seconds);

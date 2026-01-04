@@ -31,8 +31,7 @@ form.addEventListener('submit', event => {
     })
     .catch(delay => {
       iziToast.error({
-        title: 'Error',
-        message: 'Illegal operation',
+        message: `Rejected promise in ${delay}ms`,
         position: 'topRight',
         iconUrl: errorIcon,
         // timeout: 0,
